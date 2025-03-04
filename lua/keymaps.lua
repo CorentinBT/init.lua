@@ -31,9 +31,3 @@ vim.keymap.set('n', '<Esc>', '<Cmd>nohlsearch<CR>', opts)
 
 -- LSP
 vim.keymap.set('n', 'gd', vim.lsp.buf.definition, opts)
-
--- Cmp
--- vim.keymap.set('i', '<CR>', '<Cmd>lua require("cmp").mapping.confirm { select = true }<CR>', opts)
--- vim.keymap.set('i', '<Tab>', '<Cmd>lua require("cmp").mapping.select_next_item()<CR>', opts)
--- vim.keymap.set('i', '<S-Tab>', '<Cmd>lua require("cmp").mapping.select_prev_item()<CR>', opts)
--- vim.keymap.set('i', '<C-Space>', '<Cmd>lua require("cmp").mapping.complete {}<CR>', opts)

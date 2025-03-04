@@ -88,7 +88,7 @@ require("lazy").setup({
     {
         'saghen/blink.cmp',
         opts = {
-            keymap = { preset = 'enter' },
+            keymap = { preset = 'default' },
         },
     },
     {
